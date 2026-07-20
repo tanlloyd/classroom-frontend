@@ -3,6 +3,7 @@ import { createDataProvider, CreateDataProviderOptions } from "@refinedev/rest";
 import { CreateResponse, GetOneResponse, ListResponse } from "@/types";
 import { BACKEND_BASE_URL } from "@/constants";
 
+
 const options: CreateDataProviderOptions = {
   getList: {  // Builds the API endpoint URL
     getEndpoint: ({ resource }) => resource,
